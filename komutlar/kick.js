@@ -10,7 +10,7 @@ module.exports = {
         if (!message.guild) {
             const ozelmesajuyari = new Discord.MessageEmbed()
               .setColor("BLUE")
-              .setFooter( "Narcos Code Moderasyon V13", client.user.avatarURL())
+              .setFooter( "Moderasyon V13", client.user.avatarURL())
             .setTimestamp()
             .setAuthor(message.author.username, message.author.avatarURL)
             .addField('Uyarı', '`kick` adlı komutu özel mesajlarda kullanamazsın.')
